@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Assignment_4._1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="900">
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="StudentData" HorizontalAlignment="Left" Height="4200" VerticalAlignment="Top" Width="500" Margin="10"/>
+        <DataGrid x:Name="studentData" HorizontalAlignment="Left" Height="4200" VerticalAlignment="Top" Width="500" Margin="10"/>
     </Grid>    
 </Window>

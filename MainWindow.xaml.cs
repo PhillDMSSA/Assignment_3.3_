@@ -19,9 +19,25 @@ namespace Assignment_4._1
         public MainWindow()
         {
             InitializeComponent();
-            StudentData.ItemsSource = MockData.CreateData();
-        }
+            LoadData();
+            
 
-        
+
+           
+            
+        }
+       
+        private void LoadData()
+        {
+            var student = new List<Student>
+            {
+                new Student() { StudentId = 1, FirstName = "Kevin", LastName = "Billy", Address = "165 Hickory", Grade = 'B' },
+                new Student() { StudentId = 2, FirstName = "Phill", LastName = "Deleon", Address = "955 Bel Aire Dr", Grade = 'A' }
+            };
+            studentData.ItemsSource = student;
+            
+        }
     }
 }
+        
+    

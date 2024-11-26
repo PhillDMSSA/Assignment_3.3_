@@ -14,7 +14,7 @@ namespace Assignment_4._1
         Oct, Nov, Dec
 
     }
-    internal class Student
+    public class Student
     {
        public int StudentId { get; set; }
        public string FirstName { get; set; }
